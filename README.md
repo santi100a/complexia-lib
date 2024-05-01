@@ -1,4 +1,4 @@
-# Library Name
+# Santi's Complex Number Library
 
 [![Build Status][workflow badge]][repo actions]
 [![npm homepage][npm badge]][npm home]
