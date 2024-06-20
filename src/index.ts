@@ -52,12 +52,7 @@ class ComplexNumber {
 	 * @returns The argument of the complex number in radians.
 	 */
 	argument() {
-		if (this.real == 0 && this.imaginary >= 0) return (1 / 2) * Math.PI; // 90 degrees
-		if (this.real == 0 && this.imaginary < 0) return (3 / 2) * Math.PI; // 270 degrees
-		if (this.real < 0 && this.imaginary < 0) return Math.atan(this.imaginary / this.real) - Math.PI; 
-		if (this.real < 0 && this.imaginary >= 0) return Math.atan(this.imaginary / this.real) + Math.PI; 
-
-		return Math.atan(this.imaginary / this.real);
+		return Math.atan2(this.imaginary, this.real);
 	}
 	/**
 	 * Creates a complex number from polar coordinates (modulus and argument).

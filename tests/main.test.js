@@ -35,7 +35,7 @@ describe('complex number tests', () => {
         });
         test('it can compute the argument of a pure negative imaginary number correctly', () => {
             const arg = (new ComplexNumber(0, -1)).argument();
-            expect(arg).toBeCloseTo(3 * Math.PI / 2);
+            expect(arg).toBeCloseTo(-Math.PI / 2);
         });
     });
     describe('operator function cases', () => {
