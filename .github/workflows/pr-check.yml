@@ -59,7 +59,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 20.x
       - name: Install dependencies
         run: yarn
 
@@ -99,7 +99,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 19.x
+          node-version: 20.x
 
       - name: Assign pull request to yourself
         run: |
