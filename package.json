@@ -15,7 +15,7 @@
     "prettier": "^3.3.2",
     "remark-cli": "^12.0.1",
     "remark-validate-links": "^13.0.1",
-    "typescript": "4.9.5"
+    "typescript": "5.4.5"
   },
   "author": "Santiago Rojas <santyrojasprieto9+github@gmail.com>",
   "description": "Santi's Complex Number Library: \"To Complexia!\" said Morphocular.",
